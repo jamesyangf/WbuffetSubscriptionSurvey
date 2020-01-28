@@ -22,11 +22,11 @@
                     <form id="subscriptionform" style="height: 700px; border: none" id="survey-form"></form>
                         <label>Survey Title: </label>
 
-                        <input name="Email" type="text" />
-                        <input name="Phone Number" type="text" />
-                        <input name="First Name" type="text" />
-                        <input name="Last Name" type="text" />
-                        <button class="send_signup" type="submit" onClick="signupCustomer()">Subscribe</button>
+                        <input name="Email" type="text" id="emailId" />
+                        <input name="Phone Number" type="text" id="phoneId" />
+                        <input name="First Name" type="text" id="firstId" />
+                        <input name="Last Name" type="text" id="lastId" />
+                        <button class="send_signup" type="submit" onClick="addSubscriber()">Subscribe</button>
                     </form>
                 </div>
             </div>
@@ -47,6 +47,6 @@
                 location.href = 'https://stackoverflow.com/questions/16562577/how-can-i-make-a-button-redirect-my-page-to-another-page';
             }
         </script>
-        <script src="firebase_config.js"></script>
+        <script src="firebaseAPICall.js"></script>
     </body>
 </html>
